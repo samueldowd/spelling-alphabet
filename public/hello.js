@@ -1,13 +1,13 @@
 $(document).ready(function() {
     // $.post( "https://daf4646lf2.execute-api.us-west-2.amazonaws.com/stage", {"test"}, alert("success"));
 
-    $('#ajax').click(function(){ 
-        
-        var input = $("input").val();
-        var input_upper = input.toUpperCase();
-        var params = '"'+ input_upper + '"';
+    $("#inputWord").on( "submit", function(e){ 
+        e.preventDefault();
+        var input = $(".radioInput").val();
+        // var input_upper = input.toUpperCase();
+        var params = '"'+ input + '"';
 
-        // console.log(params)
+        console.log("input is " + params);
         // if ($.isPlainObject(params) == true) {
         // 	console.log("is a plainObject")
         // } else {
@@ -25,12 +25,12 @@ $(document).ready(function() {
              success: function(data){ 
              	$('#response p').remove();
              	var dataset = $.parseJSON(data);     
-             	console.log(dataset[1][1]);
-             	console.log(dataset[-1]);
+             	console.log("the body of the response is: ")
+                console.log(dataset);
              	var i = 0
              	for(var i in dataset) { 
-             		console.log("the value of i is: " + i)
-				    $( "#response" ).append("<p><strong>" + dataset[i][0] + "</strong> as in <strong>" + dataset[i][1] + "</strong></p>");
+             		// console.log("the value of i is: " + i);
+				    $( "#response" ).append("<p class='lineitem'><span class='letter text-uppercase'><strong>" + dataset[i][0] + "</strong></span> as in <span class='word'><strong>" + dataset[i][1] + "</strong><span></p>");
 				};
              }
          });

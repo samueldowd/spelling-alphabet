@@ -4,14 +4,104 @@
         <title>Radiotelephony</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="hello.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <style>
+        .description {
+            
+        }
+        #radiotelephony {
+
+        }
+        #inputWord {
+            /* padding: 20px;*/
+        }
+        .radioInput {
+            
+        }
+        #ajax {
+            margin-top: 10px;
+        }
+        #response {
+            padding: 20px;
+        }
+        .word {
+            text-transform: capitalize;
+        }
+        .akaText {
+            margin-top: 0px;
+        }
+        .lowerthird-heading {
+            margin-bottom: 0px;
+        }
+        footer {
+            text-align: center;
+            font-size: 12px;
+        }
+        </style>
     </head>
 
     <body>
-        <div>
-            <p class="instructions">The word you need to spell:</p>
-            <input id="radioInut" type="text">
-            <button id="ajax">Submit</button>
-            <div id="response"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 description">
+                    <h1>On Demand Spelling Alphabet Generator</h1>
+                    <p class="lead">A spelling alphabet is a set of words used to represent individual letters of a word when spelling it out. This tool uses the Wordnik Developer API to instantly generate a random spelling alphabet for a given word.</p>
+                </div>
+            </div>
+            <div class="row">    
+                <div id="radiotelephony" class="col-md-4 form-group">
+                    <form id="inputWord">
+                        <label for="radioInput">The word you need to spell:</label>
+                        <input type="text" class="form-control radioInput" placeholder="Example: Trafton">
+                        <button type="submit" id="ajax" class="btn btn-default">Go</button> 
+                    </form>
+                </div>      
+                <div class="col-md-8" id="response"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="lowerthird-heading">More information on Spelling Alphabets</h2>
+                    <h3 class="akaText"><small>(aka: Spelling Alphabet, Radio Alphabet, Telephone Alphabet):</small></h3>
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/Spelling_alphabet">Wikipedia: Spelling Alphabet</a></li>
+                        <li><a href="http://dictionary.reference.com/help/faq/language/s08.html">Dictionary.com: What is Phonetic Spelling?</a></li>
+                        <li><a href="http://www.britannica.com/topic/International-Phonetic-Alphabet">Britannica: History of the International Phonetic Alphabet</a></li>
+                        <li><a href="http://www.primermagazine.com/2012/learn/an-introduction-to-the-military-phonetic-alphabet">Primer Magazine: Introduction to the Military Phonetic Alphabet</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2>Examples of Spelling Alphabets</h2>
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/NATO_phonetic_alphabet">NATO Phonetic Alphabet</a></li>
+                        <li><a href="http://usmilitary.about.com/od/theorderlyroom/a/alphabet.htm">Official U.S. Military Phonetic Alphabet</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Police_code#Phonetic_alphabet">Police Phonetic Alphabet</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Greek_spelling_alphabet">Greek Spelling Alphabet</a></li>
+                        <li><a href="http://www.panix.com/~vr/alphabet.html">The Anti-Phonetic Alphabet</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2>Attribution</h2>
+                    <ul>
+                        <li><a href="http://developer.wordnik.com/">Wordnik Developer API</a></li>
+                        <li><a href="http://getbootstrap.com">Twitter Bootstrap</a></li>
+                        <li><a href="http://jquery.com/">jQuery</a></li>
+                        <li><a href="http://codecadey.com">Codecademy</a></li>
+                    </ul>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <footer>
+                    <p>Created by <a target="_blank" href="http://samueldowd.com">Samuel Dowd.</a></br>
+                    See this project on <a target="_blank" href="http://github.com/samueldowd">GitHub</a>.</p>
+                    </footer>
+                </div>
+                <div class="col-md-4"></div>
+            </div>      
+                    
+
+            </div>
         </div>
     </body>
 </html>
