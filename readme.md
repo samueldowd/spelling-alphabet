@@ -4,15 +4,15 @@
 
 An HTML/jQuery based web app which takes a word and generates a spelling alphabet. An example would be to use this when on the phone with a customer service representative who can't understand just a simple pronunciation of your name. With this app you enter your name, and it will return a random spelling alphabet like:
 
->Dowd -->
+>"Dowd" -->
 >
->D as in Dog
->
->O as in Open
->
->W as in Where
->
->D as in Days
+>>D as in Dog
+>>
+>>O as in Open
+>>
+>>W as in Where
+>>
+>>D as in Days
 
 ## How does it do it?
 
@@ -24,3 +24,4 @@ The Spelling generator uses a [Bootstrap UI](http://getbootstrap.com) with a gri
 + Progress animation
 + Google Material Design
 + Use the Wordnik Python SDK
++ Chrome Web Extension
