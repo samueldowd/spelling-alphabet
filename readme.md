@@ -31,6 +31,7 @@ The Spelling generator uses a [Bootstrap UI](http://getbootstrap.com) with a gri
 + Passport Authentication
 + Persist session to save history/commonly searched words
 + Google Analytics/tracking
++ Testing
 
 ## Thanks to
 + [Chrome Developers Tutorial: Create Your First App](https://developer.chrome.com/apps/first_app)
