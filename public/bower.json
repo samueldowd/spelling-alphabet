@@ -1,0 +1,23 @@
+{
+  "name": "random-spelling-alphabet",
+  "homepage": "https://github.com/samueldowd/spelling-alphabet",
+  "authors": [
+    "Sam Dowd <sam@samueldowd.com>"
+  ],
+  "description": "generate a spelling alphabet on the fly for any word",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}

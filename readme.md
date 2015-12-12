@@ -23,5 +23,10 @@ The Spelling generator uses a [Bootstrap UI](http://getbootstrap.com) with a gri
 + Option to vary the language/types of words retrieved
 + Progress animation
 + Google Material Design
-+ Use the Wordnik Python SDK
-+ Chrome Web Extension
++ Use the Wordnik Python SDK -- (In Progress- branch: sdk-integration)
++ Chrome App -- (In progress- branch: chrome-app credit to [Chrome Developers](Create Your First App)
+++ [Chrome Web App](https://chrome.google.com/webstore/detail/random-spelling-alphabet/ffcbkafemmbdfhgkdojkfdpmbiikcofi)
++ Passport Authentication
+
+## Thanks to
++ [Chrome Developers Tutorial: Create Your First App](Create Your First App)

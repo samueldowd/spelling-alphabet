@@ -20,6 +20,9 @@
 *.tar
 *.zip
 
+# Directories#
+############
+bower_components/
 
 # Sublime Project Files #
 ############
