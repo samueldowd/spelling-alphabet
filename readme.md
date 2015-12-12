@@ -19,14 +19,19 @@ An HTML/jQuery based web app which takes a word and generates a spelling alphabe
 The Spelling generator uses a [Bootstrap UI](http://getbootstrap.com) with a grid system for responsiveness. Using Ajax and [jQuery](http://jquery.com) the app queries an [AWS API-connected Lambda](https://aws.amazon.com/lambda/) function (Python) which queries the [Wordnik Developer API](http://developer.wordnik.com/) to get words to match each letter of the word.
 
 ## Roadmap
-+ Option to use the same word for duplicate letters
-+ Option to vary the language/types of words retrieved
++ Options
+    + Use the same word for duplicate letters
+    + Vary the language/types of words retrieved
+    + Increase the corpus count for more common words
 + Progress animation
 + Google Material Design
 + Use the Wordnik Python SDK -- (In Progress- branch: sdk-integration)
-+ Chrome App -- (In progress- branch: chrome-app credit to [Chrome Developers](Create Your First App)
-++ [Chrome Web App](https://chrome.google.com/webstore/detail/random-spelling-alphabet/ffcbkafemmbdfhgkdojkfdpmbiikcofi)
++ ~~Chrome App~~
+    + [Chrome Web App](https://chrome.google.com/webstore/detail/random-spelling-alphabet/ffcbkafemmbdfhgkdojkfdpmbiikcofi)
 + Passport Authentication
++ Persist session to save history/commonly searched words
++ Google Analytics/tracking
 
 ## Thanks to
-+ [Chrome Developers Tutorial: Create Your First App](Create Your First App)
++ [Chrome Developers Tutorial: Create Your First App](https://developer.chrome.com/apps/first_app)
++ [ReadWrite: How To Build An API In 10 Minutes](http://readwrite.com/2015/11/16/how-to-build-an-api-amazon-lambda)
