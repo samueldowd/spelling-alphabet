@@ -1,7 +1,7 @@
 {
   "name": "Random Spelling Alphabet Generator",
   "description": "Generate a random spelling alphabet on the fly to help you spell a word more clearly.",
-  "version": "1.0",
+  "version": "1.2",
   "manifest_version": 2,
   "app": {
     "background": {

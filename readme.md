@@ -30,7 +30,7 @@ The Spelling generator uses a [Bootstrap UI](http://getbootstrap.com) with a gri
     + [Chrome Web App](https://chrome.google.com/webstore/detail/random-spelling-alphabet/ffcbkafemmbdfhgkdojkfdpmbiikcofi)
 + Passport Authentication
 + Persist session to save history/commonly searched words
-+ Google Analytics/tracking
++ ~~Google Analytics/tracking~~
 + Testing
 
 ## Thanks to
